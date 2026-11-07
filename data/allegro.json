@@ -1,0 +1,348 @@
+{
+  "tool": "allegro",
+  "title": "Allegro PCB Editor",
+  "sections": [
+    {
+      "name": "布线",
+      "pinned": true,
+      "items": [
+        {
+          "key": "F3",
+          "desc": "布线",
+          "raw": "alias F3 add connect",
+          "source": "default"
+        },
+        {
+          "key": "Shift+F3",
+          "desc": "推挤/滑线",
+          "raw": "alias SF3 slide",
+          "source": "default"
+        }
+      ]
+    },
+    {
+      "name": "视图",
+      "pinned": true,
+      "items": [
+        {
+          "key": "-",
+          "desc": "上一子类",
+          "raw": "funckey - subclass --",
+          "source": "default"
+        },
+        {
+          "key": "←",
+          "desc": "平移视图 x-",
+          "raw": "funckey Left \"roam x -$roamInc\"",
+          "source": "default"
+        },
+        {
+          "key": "↑",
+          "desc": "平移视图 y-",
+          "raw": "funckey Up \"roam y -$roamInc\"",
+          "source": "default"
+        },
+        {
+          "key": "→",
+          "desc": "平移视图 x+",
+          "raw": "funckey Right \"roam x $roamInc\"",
+          "source": "default"
+        },
+        {
+          "key": "↓",
+          "desc": "平移视图 y+",
+          "raw": "funckey Down \"roam y $roamInc\"",
+          "source": "default"
+        },
+        {
+          "key": "F2",
+          "desc": "缩放全图",
+          "raw": "alias F2 zoom fit",
+          "source": "default"
+        },
+        {
+          "key": "F5",
+          "desc": "重绘屏幕",
+          "raw": "alias F5 redraw",
+          "source": "default"
+        },
+        {
+          "key": "F10",
+          "desc": "栅格开关",
+          "raw": "alias F10 grid toggle",
+          "source": "default"
+        },
+        {
+          "key": "F11",
+          "desc": "放大",
+          "raw": "alias F11 zoom in",
+          "source": "default"
+        },
+        {
+          "key": "F12",
+          "desc": "缩小",
+          "raw": "alias F12 zoom out",
+          "source": "default"
+        },
+        {
+          "key": "PageUp",
+          "desc": "上一层",
+          "raw": "alias Pgup \"layer up\"",
+          "source": "default"
+        },
+        {
+          "key": "Ctrl+F5",
+          "desc": "颜色面板",
+          "raw": "alias CF5 color192",
+          "source": "default"
+        },
+        {
+          "key": "PageDown",
+          "desc": "下一层",
+          "raw": "alias Pgdown \"layer down\"",
+          "source": "default"
+        },
+        {
+          "key": "Shift+F11",
+          "desc": "上一视图",
+          "raw": "alias SF11 zoom previous",
+          "source": "default"
+        },
+        {
+          "key": "Shift+F12",
+          "desc": "全宇宙视图",
+          "raw": "alias SF12 zoom world",
+          "source": "default"
+        }
+      ]
+    },
+    {
+      "name": "编辑",
+      "pinned": false,
+      "items": [
+        {
+          "key": "F8",
+          "desc": "撤销上一步",
+          "raw": "alias F8 oops",
+          "source": "default"
+        },
+        {
+          "key": "Ctrl+D",
+          "desc": "删除",
+          "raw": "alias ~D delete",
+          "source": "default"
+        },
+        {
+          "key": "Ctrl+Y",
+          "desc": "重做",
+          "raw": "alias ~Y redo",
+          "source": "default"
+        },
+        {
+          "key": "Ctrl+Z",
+          "desc": "撤销",
+          "raw": "alias ~Z undo",
+          "source": "default"
+        },
+        {
+          "key": "Shift+←",
+          "desc": "移动",
+          "raw": "alias SLeft \"move; ipick_to_gridunit -1\"",
+          "source": "default"
+        },
+        {
+          "key": "Shift+↑",
+          "desc": "移动",
+          "raw": "alias SUp \"move; ipick_to_gridunit 0 +1\"",
+          "source": "default"
+        },
+        {
+          "key": "Shift+→",
+          "desc": "移动",
+          "raw": "alias SRight \"move; ipick_to_gridunit +1\"",
+          "source": "default"
+        },
+        {
+          "key": "Shift+↓",
+          "desc": "移动",
+          "raw": "alias SDown \"move; ipick_to_gridunit 0 -1\"",
+          "source": "default"
+        },
+        {
+          "key": "Shift+F5",
+          "desc": "复制",
+          "raw": "alias SF5 copy",
+          "source": "default"
+        },
+        {
+          "key": "Shift+F6",
+          "desc": "移动",
+          "raw": "alias SF6 move",
+          "source": "default"
+        },
+        {
+          "key": "Shift+F9",
+          "desc": "编辑顶点",
+          "raw": "alias SF9 vertex",
+          "source": "default"
+        }
+      ]
+    },
+    {
+      "name": "查询",
+      "pinned": false,
+      "items": [
+        {
+          "key": "F4",
+          "desc": "查看对象属性",
+          "raw": "alias F4 show element",
+          "source": "default"
+        },
+        {
+          "key": "Shift+F2",
+          "desc": "编辑属性",
+          "raw": "alias SF2 property edit",
+          "source": "default"
+        },
+        {
+          "key": "Shift+F4",
+          "desc": "测量距离",
+          "raw": "alias SF4 show measure",
+          "source": "default"
+        },
+        {
+          "key": "Shift+F7",
+          "desc": "取消高亮",
+          "raw": "alias SF7 dehilight",
+          "source": "default"
+        },
+        {
+          "key": "Shift+F8",
+          "desc": "高亮所选",
+          "raw": "alias SF8 hilight pick",
+          "source": "default"
+        },
+        {
+          "key": "Ctrl+Shift+F5",
+          "desc": "查看状态",
+          "raw": "alias CSF5 status",
+          "source": "default"
+        }
+      ]
+    },
+    {
+      "name": "文件",
+      "pinned": false,
+      "items": [
+        {
+          "key": "Ctrl+N",
+          "desc": "新建",
+          "raw": "alias ~N new",
+          "source": "default"
+        },
+        {
+          "key": "Ctrl+O",
+          "desc": "打开",
+          "raw": "alias ~O open",
+          "source": "default"
+        },
+        {
+          "key": "Ctrl+S",
+          "desc": "保存",
+          "raw": "alias ~S save",
+          "source": "default"
+        },
+        {
+          "key": "Shift+F10",
+          "desc": "临时另存",
+          "raw": "alias SF10 save_as temp",
+          "source": "default"
+        }
+      ]
+    },
+    {
+      "name": "操作",
+      "pinned": false,
+      "items": [
+        {
+          "key": "x",
+          "desc": "拾取点",
+          "raw": "alias x pick",
+          "source": "default"
+        },
+        {
+          "key": "y",
+          "desc": "拾取相对点",
+          "raw": "alias y pick l",
+          "source": "default"
+        },
+        {
+          "key": "F6",
+          "desc": "完成当前命令",
+          "raw": "alias F6 done",
+          "source": "default"
+        },
+        {
+          "key": "F7",
+          "desc": "选择下一项",
+          "raw": "alias F7 next",
+          "source": "default"
+        },
+        {
+          "key": "F9",
+          "desc": "取消当前命令",
+          "raw": "alias F9 cancel",
+          "source": "default"
+        },
+        {
+          "key": "Ctrl+B",
+          "desc": "settoggle shove_mode Off …",
+          "raw": "alias ~B bubset",
+          "source": "default"
+        },
+        {
+          "key": "Ctrl+←",
+          "desc": "增量拾取（0）",
+          "raw": "alias CLeft \"ipick 0; ipick_to_gridunit -1\"",
+          "source": "default"
+        },
+        {
+          "key": "Ctrl+↑",
+          "desc": "增量拾取（0）",
+          "raw": "alias CUp \"ipick 0; ipick_to_gridunit 0 +1\"",
+          "source": "default"
+        },
+        {
+          "key": "Ctrl+→",
+          "desc": "增量拾取（0）",
+          "raw": "alias CRight \"ipick 0; ipick_to_gridunit +1\"",
+          "source": "default"
+        },
+        {
+          "key": "Ctrl+↓",
+          "desc": "增量拾取（0）",
+          "raw": "alias CDown \"ipick 0; ipick_to_gridunit 0 -1\"",
+          "source": "default"
+        },
+        {
+          "key": "Ctrl+F2",
+          "desc": "选择下一项",
+          "raw": "alias CF2 next",
+          "source": "default"
+        },
+        {
+          "key": "Ctrl+F6",
+          "desc": "层优先级",
+          "raw": "alias CF6 layer priority",
+          "source": "default"
+        },
+        {
+          "key": "Ctrl+Shift+B",
+          "desc": "settoggle smooth_mode Off…",
+          "raw": "alias ~SB smoothset",
+          "source": "default"
+        }
+      ]
+    }
+  ]
+}

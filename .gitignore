@@ -1,0 +1,19 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 运行产物
+logs/
+*.log
+preview/
+
+# 系统
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 本地配置
+*.local.json

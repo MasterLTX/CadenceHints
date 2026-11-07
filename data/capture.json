@@ -1,0 +1,62 @@
+{
+  "tool": "capture",
+  "title": "OrCAD Capture",
+  "sections": [
+    {
+      "name": "放置",
+      "pinned": true,
+      "items": [
+        { "key": "P", "desc": "放置器件", "raw": "Place Part" },
+        { "key": "W", "desc": "放置导线", "raw": "Place Wire" },
+        { "key": "N", "desc": "放置网络标号", "raw": "Place Net Alias" },
+        { "key": "G", "desc": "放置地（GND）", "raw": "Place Ground" },
+        { "key": "F", "desc": "放置电源（VCC）", "raw": "Place Power" },
+        { "key": "B", "desc": "放置总线", "raw": "Place Bus" },
+        { "key": "J", "desc": "放置连接点", "raw": "Place Junction" },
+        { "key": "T", "desc": "放置文本", "raw": "Place Text" },
+        { "key": "R", "desc": "旋转 90°", "raw": "Rotate" }
+      ]
+    },
+    {
+      "name": "编辑",
+      "pinned": true,
+      "items": [
+        { "key": "Ctrl+E", "desc": "编辑属性", "raw": "Edit Properties" },
+        { "key": "Ctrl+C", "desc": "复制", "raw": "Copy" },
+        { "key": "Ctrl+V", "desc": "粘贴", "raw": "Paste" },
+        { "key": "Ctrl+X", "desc": "剪切", "raw": "Cut" },
+        { "key": "Delete", "desc": "删除所选", "raw": "Delete" },
+        { "key": "Ctrl+Z", "desc": "撤销", "raw": "Undo" },
+        { "key": "Ctrl+Y", "desc": "重做", "raw": "Redo" },
+        { "key": "Ctrl+A", "desc": "全选", "raw": "Select All" },
+        { "key": "F4", "desc": "重复上一次操作", "raw": "Repeat" }
+      ]
+    },
+    {
+      "name": "视图",
+      "pinned": false,
+      "items": [
+        { "key": "Ctrl+滚轮", "desc": "缩放页面", "raw": "Zoom" },
+        { "key": "Esc", "desc": "取消当前操作", "raw": "Cancel" },
+        { "key": "Enter", "desc": "结束当前放置", "raw": "End mode" }
+      ]
+    },
+    {
+      "name": "查找",
+      "pinned": false,
+      "items": [
+        { "key": "Ctrl+F", "desc": "查找器件/网络", "raw": "Find" }
+      ]
+    },
+    {
+      "name": "文件",
+      "pinned": false,
+      "items": [
+        { "key": "Ctrl+S", "desc": "保存", "raw": "Save" },
+        { "key": "Ctrl+O", "desc": "打开工程", "raw": "Open" },
+        { "key": "Ctrl+N", "desc": "新建", "raw": "New" },
+        { "key": "Ctrl+P", "desc": "打印", "raw": "Print" }
+      ]
+    }
+  ]
+}
